@@ -31,4 +31,14 @@
 
 #CC {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #CCC;
+    width: fit-content;
+    padding: 5px 10px 5px 10px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+#CC a{
+    text-decoration: none;
+    color:#444;
 }
