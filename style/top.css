@@ -2,6 +2,7 @@
     overflow: hidden;
     background-color: #DDD;
     border-radius: 10px;
+    display: flex;
 }
 
 #title {
@@ -12,7 +13,6 @@
 
 .TNButton {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: block;
     float: left;
     margin: 12px;
     padding: 12px;
