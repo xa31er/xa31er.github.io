@@ -1,6 +1,6 @@
 #top {
     overflow: hidden;
-    background-color: #DDD;
+    background-color: var(--main-color);
     border-radius: 10px;
     display: flex;
 }
@@ -17,21 +17,22 @@
     margin: 12px;
     padding: 12px;
     text-decoration: none;
-    color:#444;
-    background-color: #CCC;
+    color: var(--text-color);
+    background-color: var(--button-color);
     border-radius: 5px;
     transition: color 0.3s, background-color 0.3s, border-radius 0.3s;
 }
 
 .TNButton:hover {
-    color:#CCC;
-    background-color: #444;
+    color: var(--button-color);
+    background-color: var(--high-color);
     border-radius: 25px;
 }
 
 #CC {
+    color:var(--text-color);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #CCC;
+    background-color: var(--detail-color);
     width: fit-content;
     padding: 5px 10px 5px 10px;
     margin: 5px;
@@ -40,5 +41,5 @@
 
 #CC a{
     text-decoration: none;
-    color:#444;
+    color: var(--text-color);
 }

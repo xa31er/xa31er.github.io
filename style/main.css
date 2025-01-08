@@ -1,4 +1,26 @@
+html {
+    --main-color: #9b9b9b;
+    --text-color: #333333;
+    --bg-color: #ffffff;
+    --button-color: #dbdbdb;
+    --detail-color: rgb(155, 155, 155);
+    --high-color: #535252;
+    --accent-color: rgb(163, 0, 163); 
+    background-color: var(--bg-color);
+}
+
+/* html {
+    --main-color: #505050;
+    --text-color: #cccccc;
+    --bg-color: #383838;
+    --button-color: #dbdbdb;
+    --detail-color: rgb(197, 197, 197)888;
+    --high-color: #999999;
+    --accent-color: rgb(163, 0, 163); 
+    background-color: var(--bg-color);
+} */
+
 a {
     text-decoration: none;
-    color:#444;
+    color: var(--detail-color);
 }
